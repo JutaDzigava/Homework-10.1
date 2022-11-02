@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+.lampochka{
+    width: 700px;
+    margin: 50px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.lampochka p{
+    width: 100px;
+    padding: 14px;
+    background-color: #9f9e9d;
+    text-align: center;
+    color: #ffffff;
+}
+
+.lampochka .anteba{
+    background-color: #5bc3a0;
+}
+
+.lampochka .chaqroba{
+    background-color: #a7574e;
+}
+
+.lampochka p:hover, .universal:hover{
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+.universal{
+    width: 700px;
+    background-color: #5bc3a0;
+    color: #dbdbdb;
+    margin: 50px auto;
+    padding: 14px;
+    text-align: center;
+}
